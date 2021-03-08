@@ -14,3 +14,5 @@ async def on_ready():
     print(f'{client.user} has connected to Discord!')
 
 client.run(TOKEN)
+
+#https://realpython.com/how-to-make-a-discord-bot-python/
