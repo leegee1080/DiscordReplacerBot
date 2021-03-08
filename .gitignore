@@ -1,7 +1,5 @@
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.so
-*.env
+$ cat .gitignore
+.DS_Store
+target/
+
+token.env
