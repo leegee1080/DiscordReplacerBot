@@ -111,7 +111,6 @@ bold
 bony
 boring
 bossy
-both
 bouncy
 bountiful
 bowed
