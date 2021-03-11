@@ -111,6 +111,7 @@ bold
 bony
 boring
 bossy
+bot
 both
 bouncy
 bountiful
@@ -291,6 +292,7 @@ droopy
 dry
 dual
 dull
+dumb
 dutiful
 each
 eager
@@ -1031,6 +1033,7 @@ slow
 slushy
 small
 smart
+smelly
 smoggy
 smooth
 smug
@@ -1082,6 +1085,7 @@ sticky
 stiff
 stimulating
 stingy
+stinky
 stormy
 straight
 strange
@@ -1144,7 +1148,6 @@ thick
 thin
 third
 thirsty
-this
 thorough
 thorny
 those
