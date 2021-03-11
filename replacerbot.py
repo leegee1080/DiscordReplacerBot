@@ -104,6 +104,7 @@ class QuirtisBotClient(discord.Client):
         if message.content == "calm down QuirtisBot!":
             self.rand_num_top = 3
             await message.channel.send("No you.")
+                return
 
         if(random.randint(1,self.rand_num_top) == 1):
             print("I'm looking at the message!")
