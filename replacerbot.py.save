@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+
 #replacerbot.py
 import os, discord, random, re
 
