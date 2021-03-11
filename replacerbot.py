@@ -36,7 +36,8 @@ def adj_replacer(message):
     output = ""
     for adj in lines:
         regex_adj = adj.rstrip("\n")
-        adj_check = re.compile(regex_adj, re.IGNORECASE)
+        regex_adj = regex_adj
+        adj_check = re.compile(r"\b" + regex_adj + r"\b", re.IGNORECASE)
         if(adj_check.search(message)):
             output = f"You're {regex_adj}."
             break
@@ -118,5 +119,9 @@ client = QuirtisBotClient()
 client.run(TOKEN)
 
 
-#https://realpython.com/how-to-make-a-discord-bot-python/
+
+
+
+
+#https://discord.com/api/oauth2/authorize?client_id=818611808734674964&permissions=2148005952&scope=bot
 #https://discordpy.readthedocs.io/en/latest/api.html#

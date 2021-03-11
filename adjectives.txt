@@ -35,7 +35,6 @@ alarming
 alert
 alienated
 alive
-all
 altruistic
 amazing
 ambitious
@@ -52,7 +51,6 @@ annual
 another
 antique
 anxious
-any
 apprehensive
 appropriate
 apt
@@ -851,6 +849,7 @@ pleased
 pleasing
 plump
 plush
+poggers
 polished
 polite
 political
