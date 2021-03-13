@@ -20,7 +20,7 @@ class bot_brains():
     #"!QB help" ---> shows the available commands
     #"!QB excite" ---increases the number of times the bot checks messages
     # re_command_check = re.compile(r"!QB\s(add|remove|calm|sleep|awake)\s([a-z][A-Z]*)\b")
-    re_command_check = re.compile(r"!QB\s(add|remove|calm|sleep|awake|help)\s?([a-zA-Z]*)")
+    re_command_check = re.compile(r"!QB\s(add|remove|calm|sleep|awake|help|excite)\s?([a-zA-Z]*)")
     #"Kill QuirtisBot!" --->kills the bot..
     re_kill_check = re.compile(r"\bKill QuirtisBot!\b")
 
