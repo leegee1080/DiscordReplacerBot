@@ -2,7 +2,7 @@
 #__main__.py
 
 #imports
-import os, discord
+import os, discord, re
 from discord.ext import commands
 from dotenv import load_dotenv
 from botBrainsClass import bot_brains
@@ -41,8 +41,8 @@ def main():
             if message.author == client.user:
                 return
 
-            if message.author == 195671482653736961:
-                if message.content == "QuirtisBot":
+            if re.search(r"\bQuirtisBot\b", message.content, re.IGNORECASE):
+                if message.author == 195671482653736961:
                     await message.channel.send("Papa?")
                     return
                 else:
