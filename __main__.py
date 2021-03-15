@@ -45,6 +45,9 @@ def main():
                 if message.content == "QuirtisBot":
                     await message.channel.send("Papa?")
                     return
+                else:
+                    await message.channel.send("You ain't my daddy.")
+                    return
 
             #a statment to kill the bot for good.
             if message.content == "kill QuirtisBot!":
