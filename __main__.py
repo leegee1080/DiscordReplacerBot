@@ -41,6 +41,11 @@ def main():
             if message.author == client.user:
                 return
 
+            #a statment to kill the bot for good.
+            if message.content == "kill QuirtisBot!":
+                await message.channel.send("I'm dead.")
+                await client.close()    
+
             if re.search(r"\bQuirtisBot\b", message.content, re.IGNORECASE):
                 if message.author == 195671482653736961:
                     await message.channel.send("Papa?")
@@ -48,11 +53,6 @@ def main():
                 else:
                     await message.channel.send("You ain't my daddy.")
                     return
-
-            #a statment to kill the bot for good.
-            if message.content == "kill QuirtisBot!":
-                await message.channel.send("I'm dead.")
-                await client.close()
 
             #check the message.content for certain phrases
             output = current_bot_brains.message_checker(message)
