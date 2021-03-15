@@ -77,7 +77,6 @@ awful
 awkward
 babyish
 bad
-back
 baggy
 bare
 barren
@@ -675,7 +674,6 @@ lost
 loud
 lovable
 lovely
-loving
 low
 loyal
 lucky
@@ -939,7 +937,6 @@ revolving
 rewarding
 rich
 rigid
-right
 ringed
 ripe
 roasted
@@ -1139,7 +1136,6 @@ terrible
 terrific
 testy
 thankful
-that
 these
 thick
 thin
@@ -1345,3 +1341,11 @@ zealous
 zesty
 zigzag
 asdfasdf
+spunky
+Emilio
+marsupial
+salacious
+loving
+word
+moist
+grubby
