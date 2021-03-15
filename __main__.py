@@ -41,6 +41,11 @@ def main():
             if message.author == client.user:
                 return
 
+            if message.author == 195671482653736961:
+                if message.content == "QuirtisBot":
+                    await message.channel.send("Papa?")
+                    return
+
             #a statment to kill the bot for good.
             if message.content == "kill QuirtisBot!":
                 await message.channel.send("I'm dead.")
