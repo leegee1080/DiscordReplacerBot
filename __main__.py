@@ -47,7 +47,7 @@ def main():
                 await client.close()    
 
             if re.search(r"\bQuirtisBot\b", message.content, re.IGNORECASE):
-                if message.author == 195671482653736961:
+                if message.author.id == 195671482653736961:
                     await message.channel.send("Papa?")
                     return
                 else:
