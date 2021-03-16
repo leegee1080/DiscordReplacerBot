@@ -46,16 +46,13 @@ def main():
                 await message.channel.send("I'm dead.")
                 await client.close()    
 
-            #a statment to detect miro
-            if re.search(r"\bQuirtisBot\b", message.content, re.IGNORECASE) or re.search(r".818611808734674964.", message.content, re.IGNORECASE):
-                #checks for miro
+            if re.search(r"\bQuirtisBot\b", message.content, re.IGNORECASE) or re.search(r"\b\<\@\
+!818611808734674964\>\b", message.content, re.IGNORECASE):
                 if message.author.id == 195671482653736961:
-                #checks for me
-                #if message.author.id == 143216784802054144:
                     await message.channel.send("Papa?")
                     return
                 else:
-                    await message.channel.send("You ain't my dad.")
+                    await message.channel.send("You ain't my daddy.")
                     return
 
             #check the message.content for certain phrases

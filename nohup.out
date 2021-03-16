@@ -438,3 +438,39 @@ starting replacer on message 'not really, that's a fuckton o' healing'
 checking message: 
 I'm looking at the message!
 starting replacer on message ''
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/discord/client.py", line 343, in _run_event
+    await coro(*args, **kwargs)
+  File "./__main__.py", line 54, in on_message
+    await message.channel.send("You ain't my daddy.")
+  File "/usr/local/lib/python3.6/dist-packages/discord/abc.py", line 937, in send
+    message_reference=reference)
+  File "/usr/local/lib/python3.6/dist-packages/discord/http.py", line 185, in request
+    async with self.__session.request(method, url, **kwargs) as r:
+  File "/usr/local/lib/python3.6/dist-packages/aiohttp/client.py", line 1117, in __aenter__
+    self._resp = await self._coro
+  File "/usr/local/lib/python3.6/dist-packages/aiohttp/client.py", line 381, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed
+-----------Looking for env file------------
+Found env file.
+-----------Looking for adj file------------
+Found adj file.
+Connecting to discord...
+
+QuirtisBot#5604 has connected to Discord!
+QuirtisBot#5604 is connected to the following guild:
+MY BOT TEST SERVER(id: 818616194931228682)
+
+Guild Members:
+ - QuirtisBot
+checking message: cool test
+I'm looking at the message!
+starting replacer on message 'cool test'
+checking message: quit jerking us around <@!818611808734674964>
+I'm looking at the message!
+starting replacer on message 'quit jerking us around <@!818611808734674964>'
+checking message: Not cool
+I'm looking at the message!
+starting replacer on message 'Not cool'
